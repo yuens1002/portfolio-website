@@ -1,17 +1,18 @@
-import Header from "@/components/header";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
-import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
+import Header from '@/components/header';
+import './globals.css';
+import { Inter } from 'next/font/google';
+import ActiveSectionContextProvider from '@/context/active-section-context';
+import Footer from '@/components/footer';
+import ThemeSwitch from '@/components/theme-switch';
+import ThemeContextProvider from '@/context/theme-context';
+import { Toaster } from 'react-hot-toast';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: 'Sunny Yuen | Personal Portfolio',
+  description:
+    'Sunny Yuen is a UI Engineer with 5 years of front-end application development experience.',
 };
 
 export default function RootLayout({

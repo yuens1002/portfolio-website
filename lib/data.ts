@@ -1,107 +1,124 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from 'react';
+import { CgWorkAlt } from 'react-icons/cg';
+import { FaReact } from 'react-icons/fa';
+import { LuGraduationCap } from 'react-icons/lu';
+import todoAppImg from '@/public/todoApp.png';
+import chatbotAppImg from '@/public/chatbot.png';
+import weatherAppImg from '@/public/weatherApp.png';
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: 'Home',
+    hash: '#home',
   },
   {
-    name: "About",
-    hash: "#about",
+    name: 'About',
+    hash: '#about',
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: 'Projects',
+    hash: '#projects',
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: 'Skills',
+    hash: '#skills',
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: 'Experience',
+    hash: '#experience',
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: 'Contact',
+    hash: '#contact',
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: 'Web Development Certificate',
+    location: 'Seattle, WA',
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      '9 months of project based programming course and landed a job as a front-end developer.',
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: '2016-2017',
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: 'Front-End Developer',
+    location: 'Washington, DC',
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      '2 years at my 1st job as a front-end developer and 3 years in web application development roles in various companies & tech stacks between front/backend.',
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: '2017 - 2023',
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: 'Software Developer',
+    location: 'Remote, Worldwide',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'Working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL. Open to full-time remote opportunities.',
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: '2023 - present',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: 'Todo React App',
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      'A series of completed demos utilizing state management, data fetching, caching, pagination, sorting and filtering features.',
+    tags: [
+      'React',
+      'Typescript',
+      'Redux Toolkit',
+      'HTML',
+      'CSS',
+      'REST API',
+    ],
+    imageUrl: todoAppImg,
+    link: 'https://github.com/yuens1002/react-app-env-from-scratch',
   },
   {
-    title: "rmtDev",
+    title: 'SMS AI Chatbot',
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      'History and context aware messaging system to handle incoming customer inquiries and automated scheduling',
+    tags: ['Python', 'Twilio', 'SMS', 'SQL'],
+    imageUrl: chatbotAppImg,
+    link: 'https://github.com/yuens1002/chatgpt-sms-python',
   },
   {
-    title: "Word Analytics",
+    title: 'Weather App',
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      'Fetch & display weather conditions by entering the system/state, built both frontend and backend',
+    tags: [
+      'React',
+      'Javascript',
+      'GO',
+      'Styled Components',
+      'HTML',
+      'CSS',
+    ],
+    imageUrl: weatherAppImg,
+    link: 'https://github.com/yuens1002/weather-app',
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'Python',
+  'GO',
+  'React',
+  'Vue',
+  'TypeScript',
+  'Next.js',
+  'Node.js',
+  'Tailwind',
+  'Prisma',
+  'MongoDB',
+  'PostgreSQL',
+  'Redux',
+  'RTK Query',
+  'GraphQL',
+  'Express',
+  'Framer Motion',
 ] as const;
