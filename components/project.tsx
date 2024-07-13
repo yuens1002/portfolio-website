@@ -56,7 +56,7 @@ export default function Project({
           </ul>
         </div>
         <div
-          className="absolute object-scale-down overflow-hidden sm:block top-8 -right-[15.5rem] w-[35rem] rounded-t-lg shadow-2xl
+          className="absolute hidden object-scale-down overflow-hidden sm:block top-8 -right-[15.5rem] w-[35rem] rounded-t-lg shadow-2xl
             transition 
             group-hover:scale-[1.04]
             group-hover:-translate-x-3
