@@ -1,5 +1,7 @@
 ## My personal portfolio
 
+_[https://bit.ly/syuen-portfolio](https://bit.ly/syuen-portfolio)_
+
 - Latest Next.js 14 features
 - Next.js App Router
 - Next.js Server Actions
