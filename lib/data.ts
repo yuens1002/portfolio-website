@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import todoAppImg from '@/public/todoApp.png';
-import chatbotAppImg from '@/public/chatbot.png';
+import chatbotAppImg from '@/public/chatbotApp.png';
 import weatherAppImg from '@/public/weatherApp.png';
 
 export const links = [
